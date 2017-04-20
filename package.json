@@ -1,0 +1,25 @@
+{
+  "name": "measure_converter",
+  "version": "0.1.0",
+  "description": "Conertidor de unidades de medidas. Ya viene por defecto con las conversiones de kilometros a millas y viceversa",
+  "main": "measureConverter/converter",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src -d measureConverter"
+  },
+  "keywords": [
+    "convertidor",
+    "medidas",
+    "unidades",
+    "kilometros",
+    "millas"
+  ],
+  "author": "evaldez",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
